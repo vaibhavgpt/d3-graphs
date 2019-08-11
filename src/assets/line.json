@@ -1,0 +1,194 @@
+{
+    "config": {
+        "cmd": "none",
+        "typeProperties": {
+            "axisColor": "black",
+            "axisTextColor": "black",
+            "xAxisTicks": 3,
+            "yAxisTicks": [
+                5,
+                3
+            ],
+            "xAxisText": "Timeline",
+            "yAxisText": [
+                "Speed",
+                "Time"
+            ],
+            "decimalDigits": 2,
+            "xUnit": "hr",
+            "yUnit": [
+                "km/hr",
+                "Hr"
+            ],
+            "axisCss": {
+                "shape-rendering": "crispEdges",
+                "stroke-width": "1.7px"
+            },
+            "timeFormat": "HH:mm"
+        },
+        "advanced": {
+            "tooltips": true,
+            "legends": true,
+            "zoom": true,
+            "zoomMinScaleExtent": 1,
+            "zoomMaxScaleExtent": 4
+        }
+    },
+    "data": [
+        {
+            "dataConfig": {
+                "name": "Free",
+                "legends": "L1BY0",
+                "type": "line",
+                "yIndicator": "y1",
+                "color": "rgb(32, 158, 145)",
+                "isYNegativeAllowed": false,
+                "css": {
+                    "opacity": "0.85",
+                    "r": "5"
+                }
+            },
+            "values": [
+                {
+                    "xAxis": 1521074700000,
+                    "yAxis": 60.1267
+                },
+                {
+                    "xAxis": 1521075600000,
+                    "yAxis": 105.4523
+                },
+                {
+                    "xAxis": 1521076500000,
+                    "yAxis": 99
+                },
+                {
+                    "xAxis": 1521077400000,
+                    "yAxis": 120
+                },
+                {
+                    "xAxis": 1521078300000,
+                    "yAxis": 40
+                },
+                {
+                    "xAxis": 1521079200000,
+                    "yAxis": 86
+                }
+            ]
+        },
+        {
+            "dataConfig": {
+                "name": "Free",
+                "legends": "L2BY1",
+                "type": "line",
+                "yIndicator": "y1",
+                "isYNegativeAllowed": false,
+                "color": "blue",
+                "css": {
+                    "fill-opacity": "0.65"
+                }
+            },
+            "values": [
+                {
+                    "xAxis": 1521074700000,
+                    "yAxis": 10
+                },
+                {
+                    "xAxis": 1521075600000,
+                    "yAxis": 8
+                },
+                {
+                    "xAxis": 1521076500000,
+                    "yAxis": 3
+                },
+                {
+                    "xAxis": 1521077400000,
+                    "yAxis": 4
+                },
+                {
+                    "xAxis": 1521078300000,
+                    "yAxis": 5
+                },
+                {
+                    "xAxis": 1521079200000,
+                    "yAxis": 6
+                }
+            ]
+        },
+        {
+            "dataConfig": {
+                "name": "Free",
+                "legends": "L3LY0",
+                "type": "line",
+                "yIndicator": "y0",
+                "color": "red",
+                "isYNegativeAllowed": false,
+                "css": {}
+            },
+            "values": [
+                {
+                    "xAxis": 1521074700000,
+                    "yAxis": 80.1267
+                },
+                {
+                    "xAxis": 1521075600000,
+                    "yAxis": 55.4523
+                },
+                {
+                    "xAxis": 1521076500000,
+                    "yAxis": 31
+                },
+                {
+                    "xAxis": 1521077400000,
+                    "yAxis": 20
+                },
+                {
+                    "xAxis": 1521078300000,
+                    "yAxis": 120
+                },
+                {
+                    "xAxis": 1521079200000,
+                    "yAxis": 186
+                }
+            ]
+        },
+        {
+            "dataConfig": {
+                "name": "Free",
+                "legends": "L4LY1",
+                "type": "line",
+                "yIndicator": "y1",
+                "color": "green",
+                "isYNegativeAllowed": false,
+                "css": {
+                    "fill-opacity": "0.65"
+                }
+            },
+            "values": [
+                {
+                    "xAxis": 1521074700000,
+                    "yAxis": 30.5
+                },
+                {
+                    "xAxis": 1521075600000,
+                    "yAxis": 92
+                },
+                {
+                    "xAxis": 1521076500000,
+                    "yAxis": 83
+                },
+                {
+                    "xAxis": 1521077400000,
+                    "yAxis": 74
+                },
+                {
+                    "xAxis": 1521078300000,
+                    "yAxis": 25.56
+                },
+                {
+                    "xAxis": 1521079200000,
+                    "yAxis": 66
+                }
+            ]
+        }
+    ]
+}

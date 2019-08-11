@@ -8,17 +8,32 @@
             <h2 id="line-charts">Line charts</h2>
           </div>
           <div class="card-columns">
-            <app-card-link></app-card-link>
-            <app-card-link></app-card-link>
-            <app-card-link></app-card-link>
-          </div>
-          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title">
-            <h2 id="area-charts">Area charts</h2>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Line</h5>
+                <app-d3-graphs [graphType]="id[0]"></app-d3-graphs>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Bar</h5>
+                <app-d3-graphs [graphType]="id[1]"></app-d3-graphs>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Dot</h5>
+                <app-d3-graphs [graphType]="id[2]"></app-d3-graphs>
+              </div>
+            </div>
           </div>
           <div class="card-columns">
-            <app-card-link></app-card-link>
-            <app-card-link></app-card-link>
-            <app-card-link></app-card-link>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Multi</h5>
+                <app-d3-graphs [graphType]="id[3]"></app-d3-graphs>
+              </div>
+            </div>
           </div>
         </div>
       </div>
