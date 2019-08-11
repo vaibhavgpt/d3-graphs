@@ -1,4 +1,4 @@
-# NgxD3GraphDemo
+# D3-Graphs-Angular v8.0
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.0.2.
 
