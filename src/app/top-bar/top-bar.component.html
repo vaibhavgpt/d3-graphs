@@ -1,0 +1,31 @@
+<nav class="navbar navbar-expand-md navbar-dark bg-primary fixed-top">
+  <div class="navbar-brand">
+    <a class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+      <span class="sr-only">Toggle navigation</span>
+    </a>
+    <a class="navbar-brand" href="#" title="Ngx D3 Graphs Demo">
+      <img src="../../assets/icons8-graph-clique-48.png" alt="Ngx D3 Graphs Demo" />NgX D3 Graphs Demo
+    </a>
+  </div>
+  <button class="navbar-toggler hidden-sm-up" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="navbarsDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown" ngbDropdown>
+        <a class="nav-link dropdown-toggle" id="id01" href="#" ngbDropdownToggle>PRODUCTS</a>
+        <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
+          <a class="dropdown-item" href="#">Basic Line Chart</a>
+          <a class="dropdown-item" href="#">Ajax Loaded Chart</a>
+          <a class="dropdown-item" href="#">Line Chart with 500k points</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown" ngbDropdown>
+        <a class="nav-link dropdown-toggle" id="id02" href="#" ngbDropdownToggle>DEMO</a>
+        <div class="dropdown-menu" aria-labelledby="id01" ngbDropdownMenu>
+          <a class="dropdown-item" href="#">Demo Link</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
